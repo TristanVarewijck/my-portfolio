@@ -1,0 +1,48 @@
+doctype html
+include includes/head.pug
+include includes/nav.pug
+header
+  .header-title
+    h1
+      | Hello, i&apos;m Tristan and 
+      br
+      | i&apos;m a 
+      span.change-letters Web Developer
+      | .
+    h2
+      | I am Tristan Varwijck and I am very interested
+      | in Web Development / UX Design. I am studying Communication
+      | and Multimedia Design (CMD) in Amsterdam, and I
+      | am motivated to learn new things! at the moment
+      | I feel comfortable with HTML / CSS and JS.
+  // Coding illustratie (img). Geraadpleegd van: https://ls.graphics/illustrations
+  img(src='images/Coding.png')
+  img.arrow(src='icons/left-arrow.png')
+section
+  h2
+    | My 
+    span Work
+  .relatief-aan
+    article.work-grid
+      figure
+        figcaption
+          p Rolex Replica - HTML, CSS and JS
+      figure
+        figcaption
+          p Design Patterns - Wire-Flows
+      figure
+        figcaption
+          p Project Web - UX Design
+      figure
+        figcaption
+          p Passie Project - Research and Prototyping
+    article.work-grid-overlay
+      figure
+        a(href='index.html')  Bekijk 
+      figure
+        a(href='index.html')  Bekijk 
+      figure
+        a(href='index.html')  Bekijk 
+      figure
+        a(href='index.html')  Bekijk 
+include includes/footer.pug
